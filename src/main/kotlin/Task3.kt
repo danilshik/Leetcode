@@ -1,5 +1,3 @@
-import jdk.internal.org.jline.utils.Colors
-
 
 class Task3 {
     fun lengthOfLongestSubstring(s: String): Int {
