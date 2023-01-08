@@ -1,8 +1,14 @@
 
+import main.kotlin.Task438
+import main.kotlin.Task74
 import java.util.StringJoiner
 import kotlin.random.Random
 
 fun main() {
+    val task = Task438()
+    val s = "abab"
+    val p = "ab"
+    print(task.findAnagrams(s, p))
 //    val task = Task34()
 //    println(task.searchRange(intArrayOf(5, 7, 7, 8, 8, 10), 8).contentToString())
 //    println(task.searchRange(intArrayOf(5, 7, 7, 8, 8, 10), 6).contentToString())
@@ -73,13 +79,13 @@ fun main() {
 //    println(address2.hashCode())
 //    println(address1 == address2)
 
-    var object1 = Any()
-    var object2 = Any()
-    println(object1 == object2)
-    println(object1.hashCode() == object2.hashCode())
-    println(object1.equals(object2))
-    object1 = object2
-    println( object1 == object2)
+//    var object1 = Any()
+//    var object2 = Any()
+//    println(object1 == object2)
+//    println(object1.hashCode() == object2.hashCode())
+//    println(object1.equals(object2))
+//    object1 = object2
+//    println( object1 == object2)
 
 }
 
