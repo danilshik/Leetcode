@@ -1,8 +1,8 @@
 package main.kotlin
 
 private typealias Grid = Array<CharArray>
-private const val LAND = '1'
-private const val WATER = '0'
+private const val LAND = '1' //суша
+private const val WATER = '0' //вода
 class Task200 {
     data class Point(val row: Int, val col: Int)
 

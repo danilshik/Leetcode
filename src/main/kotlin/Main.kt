@@ -5,10 +5,14 @@ import java.util.StringJoiner
 import kotlin.random.Random
 
 fun main() {
-    val task = Task438()
+    val task = Task347()
     val s = "abab"
     val p = "ab"
-    print(task.findAnagrams(s, p))
+    val array = intArrayOf(1, 1, 1, 2, 2, 3)
+    val result = task.topKFrequent(array, 2)
+    result.forEach {
+        println(it)
+    }
 //    val task = Task34()
 //    println(task.searchRange(intArrayOf(5, 7, 7, 8, 8, 10), 8).contentToString())
 //    println(task.searchRange(intArrayOf(5, 7, 7, 8, 8, 10), 6).contentToString())
